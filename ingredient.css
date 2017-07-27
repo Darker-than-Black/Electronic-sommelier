@@ -1,0 +1,69 @@
+/*h3 {
+	height: 43px;
+	width: 100%;
+	background: linear-gradient(to top, #74c3ff, #54acff);
+	border-bottom: 1px solid white;
+	border-radius: 10px 10px 0 0;
+	margin: 0;
+	padding: 0; 
+	color: white;
+	font-size: 19px;
+	text-shadow: 1px 1px 2px #000;			
+}
+.zagolovok {
+	position: relative;
+	left: 19px;
+	line-height: 43px;
+}*/
+.form3 {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 242px;
+	background: linear-gradient( to top, rgba(230, 230, 230, 1), rgba(204, 204, 204, 1));
+	border-radius: 0 0 10px 10px;
+	font-size: 12px;
+	color: #184ea3;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+#ingredient p {
+	height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+#ingredient .gh {
+	color: #999;
+	padding-right: 9px;
+}
+#dop {
+	margin-left: 18px;
+	color: #505050;
+	border-bottom: 1px dotted #a2a2a2;
+}
+
+#ingredient p > input:checked + label {
+	color: #a34d78;
+}
+
+#dop:active {
+	color: #a34d78;
+	border-bottom: 0;
+}
+
+.up {
+	display: block;
+	position: relative;
+	line-height: 30px;
+	top: -22px;
+	text-align: right;
+	color: #184ea3;
+}
+
+.up span {
+	color: #505050;
+}
+

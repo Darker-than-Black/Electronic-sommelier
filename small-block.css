@@ -1,0 +1,222 @@
+/* {
+	font-family: Tahoma, Verdana, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}*/
+/* ОСНОВНАЯ РАЗМЕТКА МАЛЫХ БЛОКОВ*/
+.small-block {
+	width: 440px;
+	height: 335px;
+	/*background-color: gray;*/
+}
+.block {
+	height: 140px;
+	width: 205px;
+	margin: 15px;
+	float: left;
+}
+
+#slojnost,
+#porsii {
+	margin-left: 0;
+}
+
+#time-cook,
+#metod {
+	margin-right: 0;
+}
+
+#time-cook,
+#porsii {
+	margin-top: 0;
+}
+
+#metod,
+#slojnost {
+	margin-bottom: 0;
+}
+
+/* РАЗЕТКА ЗАГОЛОВКА*/
+.block h3 {
+	/*border-bottom: 1px solid white;
+	border-radius: 10px 10px 0 0;
+	height: 43px;
+	width: 100%;*/
+	background: linear-gradient(to bottom, #9675c9, #7755b3);
+	/*margin: 0;
+	padding: 0; 
+	color: white;	
+	font-size: 19px;
+	text-shadow: 1px 1px 2px #000;	*/	
+}
+/*.zagolovok {
+	position: relative;
+	left: 19px;
+	line-height: 43px;
+}*/
+
+/* Фон */
+.block .content {
+	height: 94px;
+	border-radius: 0 0 10px 10px;
+	background: #ccc;
+	border-bottom: #e6e6e6;	
+}
+.info {
+	height: 63px;
+	background: linear-gradient( to top, rgba(230, 230, 230, 1), rgba(204, 204, 204, 0.4));
+	border-radius: 0 0 10px 10px;
+
+}
+
+/* Собственно КОНТЕНТ*/
+.block form {
+	padding-top: 0;
+	padding-left: 7px;
+	font-size: 9px;
+	color: #333333;
+}
+
+/*.radio, .checkbox {
+	display: none;
+}*/
+
+/* Блок "Метод" */
+#metod > .content {
+	background: linear-gradient( to top, rgba(230, 230, 230, 1), rgba(204, 204, 204, 1));
+}
+/*.dop-info {
+	display: block;
+	position: relative;
+	text-align: right;
+	top: -27px;
+	right: 8px;
+	font-size: 11px;
+	color: #e6e6e6;
+}*/
+#metod form {
+	padding-top: 10px;
+	font-size: 12px;
+	height: 230px;
+	padding-left: 0;
+}
+.block .text-metod {
+	width: 165px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	display: block;
+	padding-left: 25px;
+}
+/*.text-metod:hover {
+	color: #13469e;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	background: linear-gradient(to right, rgba(204, 204, 204, 1), rgba(204, 204, 204, 0.5), rgba(0,0,0,0));
+}
+.checkbox:checked + .text-metod {
+	color: #13469e;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	background: linear-gradient(to right, rgba(204, 204, 204, 1), rgba(204, 204, 204, 0.5), rgba(0,0,0,0));
+}*/
+
+/* Блок "Порции", "Время приготовления", "Сложность" */
+.info span {
+	position: relative;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 18px;
+	padding-bottom: 10px;
+
+	float: left;
+}
+.info i {
+	background: url(C:/Users/Демон/Desktop/Electronic-sommelier/images/Obj.png);
+	height: 5px;
+	width: 10px;
+	position: absolute;
+	text-align: center;
+	bottom: -10px;
+	display: none;
+}
+.info span:hover {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	background: linear-gradient(to bottom, rgba(204, 204, 204, 1), rgba(204, 204, 204, 0.5), rgba(0, 0, 0, 0));
+	color: #436eb0;
+	cursor: pointer;
+}
+.info span:hover i {
+	display: block;
+}
+.radio:checked + span {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	background: linear-gradient(to bottom, rgba(204, 204, 204, 1), rgba(204, 204, 204, 0.5), rgba(0, 0, 0, 0));
+	color: #436eb0;
+}
+.radio:checked + span i {
+	display: block;
+}
+.line {
+	width: 180px;
+	height: 2px;
+	background-color: #ccc;
+	border-bottom: 1px solid white;
+	border-left: 1px solid #b3b3b3;
+	border-right: 1px solid #b3b3b3;
+	border-top: 1px solid #b3b3b3;
+}
+form.check {
+	font-size: 11px;
+}
+.block .checkbox + span {
+	cursor: pointer;
+}
+.block .checkbox-custom {
+	position: relative;
+	width: 14px;
+	height: 14px;
+	border: 1px solid white;
+	border-radius: 3px;
+	display: inline-block;
+	vertical-align: baseline;
+	top: 4px;
+	background: linear-gradient(rgba(179, 179, 179, 1), rgba(204, 204, 204, 0.5), rgba(179, 179, 179, 1));
+}
+.block .checkbox:checked + .checkbox-custom::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(rgba(96, 152, 255, 1), rgba(131, 189, 255, 0.5), rgba(96, 152, 255, 1));
+	border-radius: 3px;
+}
+.content .check label {
+	display: block;
+	position: relative;
+	bottom: -2px;
+}
+
+/* Блок "Сложность" */
+#slojnost .info > .line {
+	background: linear-gradient(to right, #049a32, #fefe00, #fe3600);
+}
+#slojnost .info span {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/* Блок "Время приготовления" */
+.small-text {
+	font-size: 12px;
+}
+#time-cook .info span {
+	padding-left: 6px;
+	padding-right: 5px;
+}

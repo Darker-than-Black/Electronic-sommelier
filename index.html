@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="C:/Users/Демон/Desktop/l1-l2-l3/style.css">
+		<link rel="stylesheet" type="text/css" href="C:/Users/Демон/Desktop/l1-l2-l3/slider.css">
+		<link rel="stylesheet" type="text/css" href="C:/Users/Демон/Desktop/l1-l2-l3/ingredient.css">
+		<link rel="stylesheet" type="text/css" href="C:/Users/Демон/Desktop/l1-l2-l3/small-block.css">
+		<link rel="stylesheet" type="text/css" href="C:/Users/Демон/Desktop/l1-l2-l3/description.css">
+	</head>
+	<body>
+	<div class="somile">
+		<header class="header">
+			<div id="headerInner">
+				<h1>Электронный сомелье</h1>
+			</div>
+		</header>
+
+		<div class="level1">
+			<!-- Слайдер -->
+			<div id="bokal" class="first">
+				<h3><span class="zagolovok">Бокал</span><span class="dop-info">18 видов</span></h3>
+				<div class="content">
+					<div id="slider">
+						<input type="radio" name="slider" id="slide1">
+						<input type="radio" name="slider" id="slide2" checked="checked"	>
+						<input type="radio" name="slider" id="slide3">
+						<div id="slides">
+							<div id="overflow">
+								<div class="inner">
+									<div class="page">
+										<p><img src="C:/Users/Демон/Desktop/Electronic-sommelier/images/lay1.png" /></p>
+										<span>Бокал для красного вина</span>
+									</div> <!-- page -->
+									<div class="page">
+										<p><img src="C:/Users/Демон/Desktop/Electronic-sommelier/images/Lay.png" /></p>
+										<span>Бокал для белого вина</span>
+									</div> <!-- page -->
+									<div class="page">
+										<p><img src="C:/Users/Демон/Desktop/Electronic-sommelier/images/lay2.png" /></p>
+										<span>Бокал для зеленого вина</span>
+									</div> <!-- page -->
+								</div>  <!-- inner -->
+							</div>  <!-- overflow -->
+						</div> <!-- slides -->
+						<div id="controls">
+							<label for="slide1"></label>
+							<label for="slide2"></label>
+							<label for="slide3"></label>
+						</div> <!-- controls -->
+					</div> <!-- slider -->
+				</div> <!-- content -->
+			</div> <!-- bokal -->
+			<!-- ТИП -->
+			<div id="tip" class="first">
+				<h3><span class="zagolovok">Тип</span><span class="dop-info">24 типа</span></h3>
+				<div class="content">
+					<form>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Аперитивы</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox" checked="checked">
+							<span class="text-metod">Диджестивы</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Горячие</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod" style="color: #999;">Молочные</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod" style="color: #999;">Десертные</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Слоистые</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod" style="color: #999;">Дейзи</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod" style="color: #999;">Джулепы</span>
+						</label>
+					</form>
+				</div> <!-- content -->
+			</div> <!-- tip -->
+			<!-- Крепкосьть -->
+			<div id="krepkoct" class="first">
+				<h3><span class="zagolovok">Крепкость</span><span class="dop-info">4 вида</span></h3>
+				<div class="content">
+					<form>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Безалкогольные</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Слабоградусные<span class="V">6..15%</span></span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Полукрепкие<span class="V">16..22%</span></span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox" checked="checked">
+							<span class="text-metod">Крепкие <span class="V">>23%</span></span>
+						</label>
+					</form>
+				</div> <!-- content -->
+			</div> <!-- krepkost -->
+			<!-- Основа -->
+			<div id="osnova" class="first">
+				<h3><span class="zagolovok">Основа</span><span class="dop-info">14 напитков</span></h3>
+				<div class="content">
+					<form>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Абсент</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Водка</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Джин</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Виски</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox" checked="checked">
+							<span class="text-metod">Бренди</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Ликер</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Кальвадос</span>
+						</label>
+						<label>
+							<input type="checkbox" class="checkbox">
+							<span class="text-metod">Текила</span>
+						</label>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="level2">
+			<!-- Блок "ИНГРЕДИЕНТЫ" -->
+			<div id="ingredient" class="second">
+				<h3><span class="zagolovok">Ингредиенты</span></h3>
+					<form class="form3">
+						<p><span class="gh">1.</span><input type="checkbox" id="ch1"><label for="ch1">Настоянка &#171;Рябиновая на коньяке&#187; <span class="up">1<span> ст.л.</span></span></label></p>
+						<p><span class="gh">2.</span><input type="checkbox" id="ch2"><label for="ch2">Бренди <span class="up">100 <span> мл.</span></span></label></p>
+						<p><span class="gh">3.</span><input type="checkbox" id="ch3" checked="checked"><label for="ch3">Коктельная вишня</label><span class="up">1 <span> шт.</span></span></p>
+						<span id="dop">добавить ингредиент</span>
+					</form>
+				</div> <!-- ingredient -->
+				<!-- Блок из мальниких блоков -->
+				<div id="small-block" class="second">
+					<!-- Блок "Порции"-->
+				<div id="porsii" class="block">
+					<h3><span class="zagolovok">Порции</span></h3>
+					<div class="content">
+						<div class="info">
+							<form>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>?<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>0<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>1<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio" checked="checked">
+									<span>2<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>3<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>4<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>5<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>6<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>7<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>8<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>9<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>10<i></i></span>
+								</label>
+							</form>
+							<hr class="line" />	
+						</div> <!-- info -->
+						<form class="check">
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">+2 порции</span>
+							</label>
+						</form>
+					</div> <!-- content -->
+				</div> <!-- porsii -->
+				<div id="time-cook" class="block">
+					<h3><span class="zagolovok">Время <span class="small-text">приготовления</span></span></h3>
+					<div class="content">
+						<div class="info">
+							<form>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>?<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>10<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>15<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio" checked="checked">
+									<span>20<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>30<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>45<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>60<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>90<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>120<i></i></span>
+								</label>
+							</form>
+							<hr class="line" />	
+						</div> <!-- info -->
+						<form class="check">
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test" checked="checked">
+								<span class="checkbox-custom"></span>
+								<span class="label">увеличенное время</span>
+							</label>
+						</form>
+					</div> <!-- content -->
+				</div> <!-- time-cook -->
+				<div id="slojnost" class="block">
+					<h3><span class="zagolovok">Сложность</span></h3>
+					<div class="content">
+						<div class="info">
+							<form>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>0<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>1<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>2<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio" checked="checked">
+									<span>3<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>4<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>5<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>6<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>7<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>8<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>9<i></i></span>
+								</label>
+								<label>
+									<input type="radio" name="radio" class="radio">
+									<span>10<i></i></span>
+								</label>
+							</form>
+							<hr class="line" />	
+						</div> <!-- info -->
+						<form class="check">
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test" checked="checked">
+								<span class="checkbox-custom"></span>
+								<span class="label">вне категорий</span>
+							</label>
+						</form>
+					</div> <!-- content -->
+				</div> <!-- slojnost -->
+				<div id="metod" class="block">
+					<h3><span class="zagolovok">Метод</span><span class="dop-info">5 методов<span></h3>
+					<div class="content">
+						<form>
+							<label>
+								<input type="checkbox" class="checkbox">
+								<span class="text-metod">Не важно</span>
+							</label>
+							<label>
+								<input type="checkbox" class="checkbox" checked="checked">
+								<span class="text-metod">В шейкере</span>
+							</label>
+						</form>
+					</div> <!-- content -->
+				</div> <!-- metod -->
+			</div> <!-- small-block -->
+		</div>
+		<div class="level3">
+				<!-- Блок "Укращения" -->
+				<div id="ykrashenia" class="third">
+					<h3><span class="zagolovok">Украшения</span><span class="dop-info">19 видов</span></h3>
+					<div class="content">
+						<form class="form2">
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Апельсин на бокале</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Веточка мяты</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Взбитые сливки с вишней</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Виноград ша шпажке</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Вишенка на шпажке</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test" checked="checked">
+								<span class="checkbox-custom"></span>
+								<span class="label">Долька мандарина</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Кисточка винограда</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Оливка на шпажке</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Огуречная кожура</span>
+							</label>
+						</form>		
+					</div> <!-- content -->
+				</div> <!-- ykrashenia -->
+				<!-- Блок "ТЕГИ" -->
+				<div id="tegs" class="third">
+					<h3><span class="zagolovok">Теги</span><span class="dop-info">21 тег</span></h3>
+					<div class="content">
+						<form class="form2">
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Овощные</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test" checked="checked">
+								<span class="checkbox-custom"></span>
+								<span class="label">Огненные</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Освежающее</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Пикантные</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Пунш</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">С мороженным</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test" checked="checked">
+								<span class="checkbox-custom"></span>
+								<span class="label">Сладкое</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Соленое</span>
+							</label>
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">Острое</span>
+							</label>
+						</form>		
+					</div> <!-- content -->
+				</div> <!-- tegs -->
+				<!-- Блок "Описание" -->
+				<div id="description" class="third">
+					<h3><span class="zagolovok">Описание</span></h3>
+					<div class="content">
+						<form class="form1">
+							<input type="text" placeholder="Название" >
+							<input type="text" placeholder="Альтернативное название, через зап'ятую">
+							<ul class="tabs">
+								<li>
+									<input type="radio" name="tabs" id="tab-1" checked>
+									<label for="tab-1">краткое описание</label>
+									<div class="tab-content">
+										<textarea id="small-description"></textarea>		
+									</div>
+								</li>
+								<li>
+									<input type="radio" name="tabs" id="tab-2">
+									<label for="tab-2">инструкция по приготовлению</label>
+									<div class="tab-content">
+										<textarea id="instruction"></textarea>
+									</div>
+								</li>
+							</ul> <!-- tabs -->	
+						</form> <!-- form1 -->
+					</div>	<!-- content -->	
+				</div> <!-- description -->
+			</div>
+		</div>
+		<footer>
+			<div class="buttons">
+				<a href="#" id="reset">очистить</a>	
+				<a href="#" id="button">сохранить</a>
+			</div>
+		</footer>
+	</div>
+	</body>
+</html>
